@@ -1,0 +1,60 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+logs/
+*.tmp
+*.swp
+*.swo
+
+# Node
+node_modules/
+dist/
+build/
+.cache/
+.npm/
+.yarn/
+.pnpm-store/
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+.eggs/
+*.egg-info/
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.iml
+
+# OS/Tools
+coverage/
+.coverage*
+.sass-cache/
+.eslintcache
+.stylelintcache
+.husky/_/
+
+# Build artifacts
+out/
+release/
+*.min.*
+
+# Images cache
+*.thumb*
+
+# Local settings
+*.local
+*.secret
